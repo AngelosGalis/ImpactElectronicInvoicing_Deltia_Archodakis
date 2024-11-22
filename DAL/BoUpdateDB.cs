@@ -49,7 +49,7 @@ namespace ImpactElectronicInvoicing.DAL
             string sSQL = "";
             try
             {
-                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                 CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
                 string sConnectionString = ini.IniReadValue("Default", "MSSQLConnectionString");
                 string xml = XMLReply.Replace("'", "");
@@ -106,7 +106,7 @@ namespace ImpactElectronicInvoicing.DAL
             string sSQL = "";
             try
             {
-                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                 CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
                 string error_dscr = "";
                 if (!string.IsNullOrEmpty(ErrorDescr))
@@ -186,7 +186,7 @@ namespace ImpactElectronicInvoicing.DAL
         //    string sSQL = "";
         //    try
         //    {
-        //        string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+        //        string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
         //        CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
         //        if (CompanyConnection.DbServerType == SAPbobsCOM.BoDataServerTypes.dst_HANADB)
         //        {
@@ -259,7 +259,7 @@ namespace ImpactElectronicInvoicing.DAL
                 {
                     sSQL = "[dbo].DOCUMENTS_UPDATE_SET_IGNORE_IMPACT";
 
-                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                     CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
 
                     string sConnectionString = ini.IniReadValue("Default", "MSSQLConnectionString");

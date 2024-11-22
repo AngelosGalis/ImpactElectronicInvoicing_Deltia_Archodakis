@@ -64,7 +64,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
             int iRetVal = 0;
             try
             {
-                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
                 int updateMark = int.Parse(ini.IniReadValue("Default", "UPDATE_MARK").ToString());
                 string[] successArray = { "SUBMITTED", "CONFLICT", "CREATED" };
                 foreach (BoDocument oDocument in ListDocuments)
@@ -286,7 +286,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                 string sEndPoint = "";
                 string sUser = "";
                 string sSubscription = "";
-                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                 CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
                 string xmlPath = ini.IniReadValue("Default", "XML_PATH");
                 string sProxy = ini.IniReadValue("Default", "PROXY_SERVER");
@@ -376,7 +376,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                 string sEndPoint = "";
                 string sUser = "";
                 string sSubscription = "";
-                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                 CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
                 string xmlPath = ini.IniReadValue("Default", "XML_PATH");
                 string sProxy = ini.IniReadValue("Default", "PROXY_SERVER");
@@ -715,7 +715,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                 string sSQL = "";
                 try
                 {
-                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                     CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
                     string sConnectionString = ini.IniReadValue("Default", "MSSQLConnectionString");
                     if (CompanyConnection.DbServerType == SAPbobsCOM.BoDataServerTypes.dst_HANADB)
@@ -838,7 +838,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                     #endregion
 
 
-                    CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                    CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
                     string sJEPaymentMethods = ini.IniReadValue("Default", "PAYMENT_METHODS");
                     List<string> ListJEPaymentMethods = new List<string>();
                     ListJEPaymentMethods = sJEPaymentMethods.Split(',').ToList();
@@ -893,7 +893,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                     ListDetail = this.GetDetails(_oDocument, _oDocument.ImpactDocument.invoiceTypeCode.ToString(), out iTempDetails);
                     _oDocument.ImpactDocument.details = ListDetail.ToArray();
 
-                    _oDocument.ImpactDocument.summaries = this.GetInvoiceSummary(_oDocument, out iTempDocumentSummary,_oDocument.ImpactDocument);
+                    _oDocument.ImpactDocument.summaries = this.GetInvoiceSummary(_oDocument, out iTempDocumentSummary, _oDocument.ImpactDocument);
 
 
                     iTempVatAnalysis = LoadVatAnalysis(_oDocument);
@@ -1051,8 +1051,20 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                             oRow.isHidden = false;
                         }
 
-                        if (recType.Equals("0"))
+                        CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
+                        string sNoClassRecType = ini.IniReadValue("Default", "NO_CLASSIFICATION_RECTYPE");
+                        List<string> ListNoClassRecType = new List<string>();
+                        ListNoClassRecType = sNoClassRecType.Split(',').ToList();
+
+                        string sNoClassDelivery = ini.IniReadValue("Default", "NO_CLASSIFICATION_DELIVERY");
+                        List<string> ListNoClassDelivery = new List<string>();
+                        ListNoClassDelivery = sNoClassDelivery.Split(',').ToList();
+
+                        if (ListNoClassRecType.Contains(invoiceType) == false && ListNoClassDelivery.Contains(invoiceType) == false)
                         {
+
+                            //if (recType.Equals("0") && !invoiceType.Equals("9.3"))
+                            //{
                             oRow.incomeClassification = new Incomeclassification();
 
                             oRow.incomeClassification.classificationCategoryCode = oRS.Fields.Item("classificationCategory").Value.ToString();
@@ -1211,7 +1223,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                 return iRetVal;
             }
 
-            private Summaries GetInvoiceSummary(BoDocument _oDocument, out int _iResult,ImpactDocument oImpactDocument)
+            private Summaries GetInvoiceSummary(BoDocument _oDocument, out int _iResult, ImpactDocument oImpactDocument)
             {
                 _iResult = 0;
                 Summaries oRet = null;// = new Summaries();
@@ -1288,7 +1300,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                                 break;
                             case "4":
                                 taxes tax4 = new taxes();
-                                tax4.TaxAmount= decimal.Parse(oRS.Fields.Item("Result").Value.ToString());
+                                tax4.TaxAmount = decimal.Parse(oRS.Fields.Item("Result").Value.ToString());
                                 tax4.TaxTypeCode = int.Parse(oRS.Fields.Item("TAX_CODE").Value.ToString());
                                 tax4.taxCategoryCode = int.Parse(oRS.Fields.Item("TAX_CATEGORY").Value.ToString());
                                 tax4.taxType = "ΧΑΡΤΟΣΗΜΟ";
@@ -1656,7 +1668,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
 
                     oRet.deliveryOriginDetails = new deliveryOriginDetails();
                     oRet.deliveryOriginDetails.address = new deliveryDestinationAddress();
-                    oRet.deliveryOriginDetails.address.countryCode = _oDocument.deliveryCountryCode;
+                    oRet.deliveryOriginDetails.address.countryCode = _oDocument.originCountryCode;
                     oRet.deliveryOriginDetails.address.city = _oDocument.originCity;
                     oRet.deliveryOriginDetails.address.Street = _oDocument.originStreet;
                     oRet.deliveryOriginDetails.address.postal = _oDocument.originPostal;
@@ -1818,7 +1830,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                     //switch (_oDocument.CounterPart_Define_Area)
                     //{
                     //    case "GR":
-                    //        CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                    //        CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
 
                     //        string sNoAddress = ini.IniReadValue("Default", "GR_COUNTERPART_WITHOUT_ADDRESS");
                     //        List<string> ListNoAddress = new List<string>();
@@ -1952,7 +1964,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                 {
                     DateTime dtRefDate = DateTime.Now;
 
-                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini";
+                    string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini";
                     CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile(sFileLocation);
 
                     //ΠΡΕΠΕΙ ΝΑ ΣΚΕΦΤΩ ΚΑΤΙ ΔΗΜΙΟΥΡΓΙΚΟ ΓΙΑ ΝΑ ΣΥΝΔΕΟΜΑΙ ΣΕ ΔΙΑΦΟΡΕΤΙΚΗ ΒΑΣΗ ΑΝΑΛΟΓΑ ΜΕ ΤΟ DBNAME (HANA EDITION)
@@ -2036,12 +2048,12 @@ namespace ImpactElectronicInvoicing.BusinessLayer
                         _oDocument.deliveryCity = oRS.Fields.Item("deliveryCity").Value.ToString();
                         _oDocument.deliveryStreet = oRS.Fields.Item("deliveryStreet").Value.ToString();
                         _oDocument.deliveryPostal = oRS.Fields.Item("deliveryPostal").Value.ToString();
-                        _oDocument.deliveryPostal = oRS.Fields.Item("deliveryNumber").Value.ToString();
+                        _oDocument.deliveryNumber = oRS.Fields.Item("deliveryNumber").Value.ToString();
                         _oDocument.originCountryCode = oRS.Fields.Item("originCountryCode").Value.ToString();
                         _oDocument.originCity = oRS.Fields.Item("originCity").Value.ToString();
                         _oDocument.originStreet = oRS.Fields.Item("originStreet").Value.ToString();
                         _oDocument.originPostal = oRS.Fields.Item("originPostal").Value.ToString();
-                        _oDocument.originPostal = oRS.Fields.Item("originNumber").Value.ToString();
+                        _oDocument.originNumber = oRS.Fields.Item("originNumber").Value.ToString();
 
                         #endregion
 

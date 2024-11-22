@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ImpactElectronicInvoicing")]
+[assembly: AssemblyTitle("ImpactElectronicInvoicingDA")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TEKA Systems SA")]
-[assembly: AssemblyProduct("ImpactElectronicInvoicing")]
+[assembly: AssemblyProduct("ImpactElectronicInvoicingDA")]
 [assembly: AssemblyCopyright("Copyright © TEKA Systems SA 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

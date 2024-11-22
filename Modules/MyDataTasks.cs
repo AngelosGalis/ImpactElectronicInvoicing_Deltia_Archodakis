@@ -65,7 +65,7 @@ namespace ImpactElectronicInvoicing.Modules
         public void StopMyService()
         {
 
-            CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+            CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
             string serviceName = ini.IniReadValue("Default", "MYDATA_WINDOWS_SERVICE_NAME");
             //string serviceName = "ImpactElectronicInvoicingWindowsService";
             if (!string.IsNullOrEmpty(serviceName))
@@ -140,7 +140,7 @@ namespace ImpactElectronicInvoicing.Modules
             int iRetVal = 0;
             try
             {
-                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
 
                 string sCompanyName = ini.IniReadValue("Default", "COMPANY_NAME");
                 string sServerName = ini.IniReadValue("Default", "SAP_SERVER");
@@ -180,7 +180,7 @@ namespace ImpactElectronicInvoicing.Modules
         {
             try
             {
-                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
                 this.StopService = int.Parse(ini.IniReadValue("Default", "STOP_SERVICE"));
             }
             catch (Exception ex)
@@ -197,7 +197,7 @@ namespace ImpactElectronicInvoicing.Modules
                 oMail.Body = _sBody;
                 oMail.Subject = _sSubject;
                 //oMail.SendMail("vplagianos@gmail.com");
-                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
                 string address = ini.IniReadValue("Default", "EMAIL_ADDRESS");
                 oMail.SendMail(address);
 

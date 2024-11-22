@@ -39,9 +39,9 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "ImpactElectronicInvoicing";
-            this.serviceInstaller1.DisplayName = "ImpactElectronicInvoicing";
-            this.serviceInstaller1.ServiceName = "ImpactElectronicInvoicingWindowsService";
+            this.serviceInstaller1.Description = "ImpactElectronicInvoicingDA";
+            this.serviceInstaller1.DisplayName = "ImpactElectronicInvoicingDA";
+            this.serviceInstaller1.ServiceName = "ImpactElectronicInvoicingDAWindowsService";
             this.serviceInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
             // 
             // ProjectInstaller

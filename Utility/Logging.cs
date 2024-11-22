@@ -84,7 +84,7 @@ namespace CommonLibrary.ExceptionHandling
         /// <param name="_oStatus">Τύπος πληροφορίας</param>
         public static void WriteToLog(string _sText, LogStatus _oStatus)
         {
-            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing";
+            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA";
 
             Ini.IniFile ini = new Ini.IniFile(string.Format("{0}\\{1}", sFileLocation, "ConfParams.ini"));
             int iLogger = int.Parse(ini.IniReadValue("Default", "LOGGER").ToString());
@@ -105,7 +105,7 @@ namespace CommonLibrary.ExceptionHandling
         public static void ManageLogFile()
         {
             string sErrorLogFile = "ErrorLog.txt";
-            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\Logs";
+            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\Logs";
 
             FileInfo oFInfo = new FileInfo(string.Format("{0}\\{1}", sFileLocation, sErrorLogFile));
 
@@ -174,7 +174,7 @@ namespace CommonLibrary.ExceptionHandling
         private static void SendToLog(string _sText, LogStatus _oStatus)
         {
             string sErrorLogFile = "ErrorLog.txt";
-            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicing\\Logs";
+            string sFileLocation = "C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\Logs";
             //string sUser = Globals.Company.UserName;
 
             StreamWriter oLogFile;

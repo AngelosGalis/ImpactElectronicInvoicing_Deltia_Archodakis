@@ -24,7 +24,7 @@ namespace ImpactElectronicInvoicing.BusinessLayer
             {
                 int iResult = 0;
                 int cnt = 1;
-                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicing\\ConfParams.ini");
+                CommonLibrary.Ini.IniFile ini = new CommonLibrary.Ini.IniFile("C:\\Program Files\\sap\\ImpactElectronicInvoicingDA\\ConfParams.ini");
 
                 #region InnovPlanet
                 //var fromAddress = new MailAddress("vplagianos@digital4u.gr", "Donoupoglou Service");
