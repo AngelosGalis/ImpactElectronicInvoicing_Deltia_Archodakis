@@ -1,0 +1,554 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.0\SAPB1SyncMobiles\V1.0.0\Solution\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.0\SAPB1SyncMobiles\V1.0.0\Solution\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.0\SAPB1SyncMobiles\V1.0.0\Solution\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.0\SAPB1SyncMobiles\V1.0.0\Solution\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service has been marked for deletion
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.1\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.2\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.exe assembly's progress.
+The file is located at C:\VP_Files\VAP\SyncMobiles\WindowsService\V1.0.3\bin\Debug\SAPB1SyncMobiles.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service has been marked for deletion
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service has been marked for deletion
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.1\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.4\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.4\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.4\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.4\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V1.0.9\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.2\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.exe assembly's progress.
+The file is located at C:\Users\user\Google Drive\_Addons\PAL\AberonIntegration\WindowService\V2.0.3\bin\Debug\SAPB1SyncAberon.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.0\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.0\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.0\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.0\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+An exception occurred during the Install phase.
+System.ComponentModel.Win32Exception: The specified service already exists
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.1\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.2\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.2\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.2\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.2\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.3\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.3\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.3\bin\Debug\SAPB1SyncSynergy.exe assembly's progress.
+The file is located at C:\Teka Systems\VPFiles\Source\WindowsService\V1.0.3\bin\Debug\SAPB1SyncSynergy.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the E:\00.TEKASystems\VP\Source\SAPPickListService\V1.0.0\bin\Debug\SAPPickListService.exe assembly's progress.
+The file is located at E:\00.TEKASystems\VP\Source\SAPPickListService\V1.0.0\bin\Debug\SAPPickListService.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService\bin\Debug\SAPmyDataService.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService\bin\Debug\SAPmyDataService.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService\bin\Debug\SAPmyDataService.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService\bin\Debug\SAPmyDataService.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+An exception occurred during the Install phase.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at C:\Teka Systems\Addons\myDataService_Expenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the D:\Teka Systems\Addons\LINO\SAPmyDataServiceExpenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at D:\Teka Systems\Addons\LINO\SAPmyDataServiceExpenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the D:\Teka Systems\Addons\LINO\SAPmyDataServiceExpenses\bin\Debug\SAPmyDataServiceExpenses.exe assembly's progress.
+The file is located at D:\Teka Systems\Addons\LINO\SAPmyDataServiceExpenses\bin\Debug\SAPmyDataServiceExpenses.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\Impact\ImpactElectronicInvoicing\bin\Debug\ImpactElectronicInvoicing.exe assembly's progress.
+The file is located at C:\Teka Systems\Impact\ImpactElectronicInvoicing\bin\Debug\ImpactElectronicInvoicing.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\Impact\ImpactElectronicInvoicing\bin\Debug\ImpactElectronicInvoicing.exe assembly's progress.
+The file is located at C:\Teka Systems\Impact\ImpactElectronicInvoicing\bin\Debug\ImpactElectronicInvoicing.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Teka Systems\Impact\TEST\ImpactElectronicInvoicingTEST\bin\Debug\ImpactElectronicInvoicingTEST.exe assembly's progress.
+The file is located at C:\Teka Systems\Impact\TEST\ImpactElectronicInvoicingTEST\bin\Debug\ImpactElectronicInvoicingTEST.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Teka Systems\Impact\TEST\ImpactElectronicInvoicingTEST\bin\Debug\ImpactElectronicInvoicingTEST.exe assembly's progress.
+The file is located at C:\Teka Systems\Impact\TEST\ImpactElectronicInvoicingTEST\bin\Debug\ImpactElectronicInvoicingTEST.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
